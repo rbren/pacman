@@ -1,7 +1,7 @@
-# OpenVibe Hello World
+# Pacman
 
-[![CI](https://github.com/rbren/openvibe-hello-world/actions/workflows/ci.yml/badge.svg)](https://github.com/rbren/openvibe-hello-world/actions/workflows/ci.yml)
-[![Deploy](https://github.com/rbren/openvibe-hello-world/actions/workflows/deploy.yml/badge.svg)](https://github.com/rbren/openvibe-hello-world/actions/workflows/deploy.yml)
+[![CI](https://github.com/rbren/pacman/actions/workflows/ci.yml/badge.svg)](https://github.com/rbren/pacman/actions/workflows/ci.yml)
+[![Deploy](https://github.com/rbren/pacman/actions/workflows/deploy.yml/badge.svg)](https://github.com/rbren/pacman/actions/workflows/deploy.yml)
 
 A basic React application built with Vite.
 

@@ -18,14 +18,14 @@ describe('Home', () => {
       })
       .mockResolvedValueOnce({
         ok: true,
-        json: async () => ({ status: 'healthy', service: 'OpenVibe Hello World Backend' })
+        json: async () => ({ status: 'healthy', service: 'Pacman Backend' })
       })
   })
 
   it('renders the hero section', async () => {
     render(<Home />)
     
-    expect(screen.getByText('Welcome to OpenVibe Hello World')).toBeInTheDocument()
+    expect(screen.getByText('Welcome to Pacman')).toBeInTheDocument()
     expect(screen.getByText('Your React App is Running with Python Backend!')).toBeInTheDocument()
     
     // Wait for backend connection test to complete
