@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import './App.css'
+import Pacman from './components/Pacman';
 
 function App() {
   return (
@@ -14,7 +15,6 @@ function App() {
         <div className="App">
           <Header />
           <main className="main-content">
-            import Pacman from './components/Pacman';
 
             <Routes>
               <Route path="/" element={<Home />} />
