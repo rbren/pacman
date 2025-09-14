@@ -14,11 +14,13 @@ function App() {
         <div className="App">
           <Header />
           <main className="main-content">
+            import Pacman from './components/Pacman';
+
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
-              <Route path="/pacman" element={<PacmanPage />} />
+              <Route path="/pacman" element={<Pacman />} />
             </Routes>
           </main>
           <Footer />
