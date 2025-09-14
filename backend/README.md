@@ -1,6 +1,6 @@
-# OpenVibe Hello World Python Backend
+# Pacman Python Backend
 
-A simple Flask-based backend API for the OpenVibe Hello World application.
+A simple Flask-based backend API for the Pacman application.
 
 ## API Endpoints
 
